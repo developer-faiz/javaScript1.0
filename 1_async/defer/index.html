@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>async/defer</title>
+    <!-- If js code is not dealing with any DOM element without async/defer -->
+    <!-- <script src="demo1.js"></script> -->
+
+    <!--
+         Introduced in HTML5 (async/defer)
+         But we can place in head section either dealing with DOM elements or not with the help of async/defer 
+    -->
+
+    <!-- with async
+         * HTML parsing & fetch script download at same time then script get downloaded the HTML Parsing done
+     -->
+    <!-- <script src="demo1.js" async></script> -->
+
+    <!-- with defer
+        * HTML parsing & fetch script done then script get downloaded
+     -->
+     <script src="demo1.js" defer></script>
+    
+</head>
+<body>
+    <h1 id="co">welcome in javaScript</h1>
+
+    <!-- if dealing with DOM element -->
+    <!-- <script src="demo1.js"></script> -->
+</body>
+</html>
