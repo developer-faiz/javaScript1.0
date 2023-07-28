@@ -44,4 +44,5 @@ console.log('---------------------');
 let r1 = str3.replace("a","e");
 console.log(str3);
 console.log(r1)
-console.log(str3.replaceAll("a","e"))
+console.log(str3.replaceAll("a","e"));
+console.log('---------------------');
